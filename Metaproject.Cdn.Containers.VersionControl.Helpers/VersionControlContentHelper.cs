@@ -6,7 +6,7 @@ namespace Metaproject.Cdn.Containers.VersionControl.Helpers
 {
     public static class VersionControlContentHelper
     {
-        private const string Container = nameof(VersionControl);
+        private const string Container = "versioncontrol";
 
         public static void SaveGitAttributeIgnoreFiles(string destinationPath)
             => ExtractZip(new Blob(Container, GitAttributesIgnore), destinationPath);
