@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PostBuildEvent>
+      dotnet upload-blob --Container VersionControl
+    </PostBuildEvent>
   </PropertyGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="CDorst.DevOps.ContentDelivery.DotNetCliTools.UploadAzureBlobContainer" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
