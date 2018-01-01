@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <PostBuildEvent>
+      cd $(ProjectDir)
       dotnet upload-blob --Container VersionControl
     </PostBuildEvent>
   </PropertyGroup>

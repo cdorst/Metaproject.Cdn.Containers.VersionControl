@@ -10,7 +10,7 @@
     <Description>Helpers for downloading CDN content from the cdorst-dev VersionControl container</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CDorst.Metaproject.Cdn.Containers.VersionControl.Helpers</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
