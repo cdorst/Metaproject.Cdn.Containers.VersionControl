@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="CDorst.DevOps.ContentDelivery.DotNetCliTools.UploadAzureBlobContainer" Version="1.0.0" />
+    <DotNetCliToolReference Include="CDorst.DevOps.ContentDelivery.DotNetCliTools.UploadAzureBlobContainer" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
